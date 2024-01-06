@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityDetailKP">
+
+
+
+        <TextView
+            android:id="@+id/textViewFinishPPC"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent"
+            android:textSize="24sp"
+            android:text="Характеристики ППЦ"
+            android:gravity="center"
+            android:layout_marginTop="12dp"
+            />
+
+        <TextView
+            android:id="@+id/textViewThirdModelPPC"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/textViewFinishPPC"
+            android:textSize="24sp"
+            android:text="Модель ППЦ"
+            android:gravity="center"
+            android:layout_marginTop="12dp"
+            />
+
+        <TextView
+            android:id="@+id/textViewThirdTotalPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/textViewThirdModelPPC"
+            android:textSize="24sp"
+            android:text="Стоимость"
+            android:gravity="center"
+            android:layout_marginTop="12dp"
+            />
+
+        <androidx.core.widget.NestedScrollView
+            android:id="@+id/nestedScroll"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            app:layout_constraintTop_toBottomOf="@+id/textViewThirdTotalPrice"
+            app:layout_constraintBottom_toBottomOf="parent">
+
+            <LinearLayout
+                android:id="@+id/linearRecycler"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerViewSpecialOptions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:nestedScrollingEnabled="true"
+            app:layout_constraintTop_toBottomOf="@+id/linearRecycler"
+            android:layout_marginTop="16dp"/>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    app:layout_constraintTop_toBottomOf="@id/recyclerViewSpecialOptions"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Доп. опции"
+                    android:gravity="center"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    app:layout_constraintTop_toBottomOf="@id/recyclerViewSpecialOptions"
+                    />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/recyclerViewDopOptions"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:nestedScrollingEnabled="true"
+                    app:layout_constraintTop_toBottomOf="@+id/linearRecycler"
+                    android:layout_marginTop="16dp"/>
+
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            app:layout_constraintTop_toBottomOf="@id/recyclerViewDopOptions"
+             />
+
+            </LinearLayout>
+
+
+
+
+    </androidx.core.widget.NestedScrollView>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabDetailAktHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        app:maxImageSize="35dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:srcCompat="@drawable/home_black_48"
+        android:contentDescription = "Домой"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabDetailAktCreatePDF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        app:maxImageSize="35dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:srcCompat="@drawable/baseline_redo_black_48"
+        android:contentDescription = "Создать ПДФ"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

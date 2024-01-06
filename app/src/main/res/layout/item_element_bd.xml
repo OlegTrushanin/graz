@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardUseCompatPadding="true"
+    app:cardCornerRadius="8dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintCell"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp">
+
+    <TextView
+        android:id="@+id/textViewCompDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Компания + Дата"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+        <TextView
+            android:id="@+id/textViewModVolumCapsMater"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Модель + объем + отс. + материал"
+            app:layout_constraintTop_toBottomOf="@+id/textViewCompDate"/>
+
+        <TextView
+            android:id="@+id/textViewAxelMarkAxelWeightTypeAxel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4оси + BPW + 10 тонн + пневматика"
+            app:layout_constraintTop_toBottomOf="@+id/textViewModVolumCapsMater"/>
+
+        <TextView
+            android:id="@+id/textViewPriceCost"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:text="Стоимость прайс: "
+            app:layout_constraintTop_toBottomOf="@+id/textViewAxelMarkAxelWeightTypeAxel"/>
+
+        <TextView
+            android:id="@+id/textViewAddCost"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:text="Надбавка: "
+            app:layout_constraintTop_toBottomOf="@+id/textViewPriceCost"/>
+
+        <TextView
+            android:id="@+id/textViewDeliveryCost"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:text="Стоимость доставки: "
+            app:layout_constraintTop_toBottomOf="@+id/textViewAddCost"/>
+
+        <TextView
+            android:id="@+id/textViewTotalPriceKp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:text="Итоговая цена в КП: "
+            app:layout_constraintTop_toBottomOf="@+id/textViewDeliveryCost"/>
+
+
+
+        <View
+            android:id="@+id/viewAfterCell"
+            android:layout_width="0dp"
+            android:layout_height="3dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textViewTotalPriceKp"
+            android:background="#070707" />
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,184 @@
+<resources>
+    <string name="app_name">GRAZ</string>
+
+    <string-array name="spinner_FirstCirclePPC_3">
+        <item>28 м3, ППЦШ 3 оси</item>
+        <item>29 м3, ППЦШ 3 оси</item>
+        <item>30 м3, ППЦШ 3 оси</item>
+        <item>32 м3, ППЦШ 3 оси</item>
+    </string-array>
+
+    <string-array name="spinner_FirstCirclePPC_4">
+        <item>32 м3, ППЦШ 4 оси</item>
+    </string-array>
+
+    <string-array name="spinner_FirstCirclePPCA_3">
+        <item>30 м3, ППЦА 3 оси</item>
+        <item>31 м3, ППЦА 3 оси</item>
+        <item>32 м3, ППЦА 3 оси</item>
+        <item>33.5 м3, ППЦА 3 оси</item>
+        <item>35 м3, ППЦА 3 оси</item>
+        <item>37.7 м3, ППЦА 3 оси</item>
+    </string-array>
+
+    <string-array name="spinner_FirstCirclePPCA_4">
+        <item>33.5 м3, ППЦА 4 оси</item>
+        <item>35 м3, ППЦА 4 оси</item>
+        <item>37.7 м3, ППЦА 4 оси</item>
+    </string-array>
+
+    <string-array name="spinner_FirstCirclePPCA_3_1">
+        <item>38 м3, ППЦА 3+1 оси</item>
+    </string-array>
+
+    <string-array name="spinner_FirstCasePPC_pneum">
+        <item>24 м3, ППЦ чем пневм</item>
+        <item>26 м3, ППЦ чем пневм</item>
+        <item>28 м3, ППЦ чем пневм</item>
+        <item>30 м3, ППЦ чем пневм</item>
+        <item>35 м3, ППЦ чем пневм</item>
+        <item>40 м3, ППЦ чем пневм</item>
+        <item>42 м3, ППЦ чем пневм</item>
+    </string-array>
+
+    <string-array name="spinner_FirstCasePPC_pneum2">
+        <item>40 м3, ППЦ 2 ската</item>
+        <item>45 м3, ППЦ 2 ската</item>
+    </string-array>
+
+    <string-array name="spinner_FirstCasePPC_komb">
+        <item>40 м3, ППЦ комб </item>
+        <item>42 м3, ППЦ комб </item>
+    </string-array>
+
+
+    <string-array name="spinner_FirstChemPPC">
+        <item>28 м3, ППЦ чемотас</item>
+        <item>29 м3, ППЦ чемотас</item>
+        <item>30 м3, ППЦ чемотас</item>
+        <item>31 м3, ППЦ чемотас</item>
+        <item>32 м3, ППЦ чемотас</item>
+    </string-array>
+
+    <string-array name="spinner_FirstPPCB_3">
+        <item>28 м3, ППЦБ 3 оси</item>
+        <item>30 м3, ППЦБ 3 оси</item>
+        <item>37.7 м3, ППЦБ 3 оси</item>
+    </string-array>
+
+    <string-array name="spinner_FirstPPCB_4">
+        <item>32 м3, ППЦБ 4 оси</item>
+    </string-array>
+
+    <string-array name="spinner_FirstPPCB_3_1">
+        <item>32 м3, ППЦБ 3+1 оси</item>
+    </string-array>
+
+    <string-array name="spiner_SecondCountCapsule">
+        <item>1 отсек</item>
+        <item>2 отсека</item>
+        <item>3 отсека</item>
+        <item>4 отсека</item>
+        <item>5 отсеков</item>
+        <item>6 отсеков</item>
+        <item>7 отсеков</item>
+    </string-array>
+
+    <string-array name="spiner_KOColorCount">
+        <item>1 цвет</item>
+        <item>2 цвета</item>
+        <item>3 цвета</item>
+        <item>4 цвета</item>
+        <item>5 цветов</item>
+        <item>6 цветов</item>
+        <item>7 цветов</item>
+    </string-array>
+
+    <string-array name="spiner_KOLevelDifficult">
+        <item>1 коэф.</item>
+        <item>2 коэф.</item>
+        <item>3 коэф.</item>
+        <item>4 коэф.</item>
+        <item>5 коэф.</item>
+        <item>6 коэф.</item>
+        <item>7 коэф.</item>
+    </string-array>
+
+    <string-array name="spiner_KOLevelDifficultNull">
+        <item>0 коэф.</item>
+    </string-array>
+
+    <string-array name="spiner_MarkTire">
+        <item>Cordiant 385/65 R22</item>
+        <item>LEAO 425/65 R22.5</item>
+    </string-array>
+
+
+    <string-array name="spiner_SecondNNandRec">
+        <item>Эксполюкс-НН</item>
+        <item>Эксполюкс-НН (УД-2 80)</item>
+        <item>Эксполюкс-НН (УД-2 80, Normec розетка/датчики)</item>
+        <item>Эксполюкс-НН (Normec розетка/датчики)</item>
+        <item>Normec</item>
+        <item>Normec (УД-2 80)</item>
+    </string-array>
+
+    <string-array name="spiner_SecondNNandRec_Podg">
+        <item>Подготовка без трубопровода</item>
+        <item>Подготовка с трубопроводом</item>
+    </string-array>
+
+    <string-array name="spiner_SecondNNandRec_Podg_Two">
+        <item>Подготовка без трубопровода</item>
+        <item>Подготовка с трубопроводом</item>
+        <item>Подготовка с трубопроводом с 2 сторон</item>
+    </string-array>
+
+    <string-array name="spinner_Second_Pump">
+        <item>Нет</item>
+        <item>СВН-80</item>
+        <item>СШН-50/600</item>
+    </string-array>
+
+    <string-array name="spinner_Second_PumpPpcb">
+        <item>Нет</item>
+        <item>ДС-125</item>
+    </string-array>
+
+    <string-array name="spinner_Second_StoronaSliv">
+        <item>Api-адаптеры слева, краны справа</item>
+        <item>Краны слева, Api-адаптеры справа</item>
+        <item>Api-адаптеры с 2 сторон</item>
+    </string-array>
+
+    <string-array name="spinner_Second_StoronaSlivNotNN">
+        <item>Шаровые краны на обе стороны</item>
+    </string-array>
+
+    <string-array name="spinner_Second_MestoZapKol_1sl">
+        <item>В тех. шкафу</item>
+        <item>В заднем свесе</item>
+        <item>В тех. шкафу и заднем свесе</item>
+    </string-array>
+
+    <string-array name="spinner_Second_MestoZapKol_2sl">
+        <item>В заднем свесе</item>
+    </string-array>
+
+    <string-array name="spiner_SecondTypeGorlCovers">
+        <item>Промприбор</item>
+        <item>Эксполюкс-НН</item>
+        <item>Промприбор/Эксполюкс-НН</item>
+    </string-array>
+
+    <string-array name="spiner_SecondBottomValve">
+        <item>Промприбор</item>
+        <item>Эксполюкс-НН</item>
+        <item>Промприбор/Эксполюкс-НН</item>
+    </string-array>
+
+    <string-array name="spiner_SecondBottomValvePpcb">
+        <item>ДКБ-100</item>
+    </string-array>
+
+</resources>

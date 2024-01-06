@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "621712801020",
+    "firebase_url": "https://bd-first-1-default-rtdb.firebaseio.com",
+    "project_id": "bd-first-1",
+    "storage_bucket": "bd-first-1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:621712801020:android:ea1b9362eb04e7c470eb79",
+        "android_client_info": {
+          "package_name": "oleg.trushanin.graz"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDUEES2CXzfFF0BzXBmAz4nCE1wNdS3bo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
